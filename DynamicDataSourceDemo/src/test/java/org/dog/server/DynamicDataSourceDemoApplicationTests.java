@@ -19,4 +19,9 @@ class DynamicDataSourceDemoApplicationTests {
     void contextLoads() {
         userService.getAllUsers().forEach(System.out::println);
     }
+
+    @Test
+    void test() {
+        userService.test();
+    }
 }

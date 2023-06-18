@@ -1,12 +1,13 @@
 # 数据源配置
 spring:
+
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.cj.jdbc.Driver
     ds:
       # 主库数据源
       master:
-        url: jdbc:mysql://localhost:3306/test01?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
+        url: jdbc:mysql://localhost:3306/test03?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
         username: root
         password: root
       # 从库数据源
@@ -53,3 +54,13 @@ spring:
       wall:
         config:
           multi-statement-allow: true
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group: my_test_tx_group
+  main:
+    allow-circular-references: true
+  application:
+    name: dd
+seata:
+  enable-auto-data-source-proxy: false

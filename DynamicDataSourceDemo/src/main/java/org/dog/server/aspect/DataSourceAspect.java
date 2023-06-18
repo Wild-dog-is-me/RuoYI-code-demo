@@ -35,23 +35,22 @@ public class DataSourceAspect {
     }
 
     @Around("pc()")
-    public Object around(ProceedingJoinPoint point) {
-        // 获取方法上的注解
-        DataSource dataSource = getDataSource(point);
+    public Object around(ProceedingJoinPoint pjp) throws Throwable {
+        //获取方法上面的注解
+        DataSource dataSource = getDataSource(pjp);
         if (dataSource != null) {
-            // 获取注解中数据源的值
+            //获取注解中数据源的名称
             String value = dataSource.value();
             DynamicDataSourceContextHolder.setDataSourceType(value);
         }
-        Object result = null;
         try {
-            result = point.proceed();
-        } catch (Throwable e) {
-            e.printStackTrace();
+            return pjp.proceed();
+        } catch (Throwable throwable) {
+            throwable.printStackTrace();
+            throw throwable;
         } finally {
             DynamicDataSourceContextHolder.clearDataSourceType();
         }
-        return result;
     }
 
     public DataSource getDataSource(ProceedingJoinPoint point) {

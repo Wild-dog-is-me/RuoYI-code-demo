@@ -1,5 +1,6 @@
 package org.dog.server.datasource;
 
+import io.seata.rm.datasource.DataSourceProxy;
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 import org.springframework.stereotype.Component;
 
@@ -18,7 +19,7 @@ public class DynamicDataSource extends AbstractRoutingDataSource {
 
     public DynamicDataSource(LoadDataSource loadDataSource) {
         // 1.设置所有的数据源
-        Map<String, DataSource> allDs = loadDataSource.loadAllDataSource();
+        Map<String, DataSourceProxy> allDs = loadDataSource.loadAllDataSource();
         super.setTargetDataSources(new HashMap<>(allDs));
         super.setDefaultTargetDataSource(allDs.get(DataSourceType.DEFAULT_DS_NAME));
         super.afterPropertiesSet();

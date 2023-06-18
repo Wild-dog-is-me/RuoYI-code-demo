@@ -17,10 +17,10 @@ import javax.servlet.http.HttpSession;
  * @Date: 2023/6/3 10:59
  * @Description:
  */
-
-@Aspect
-@Component
-@Order(10)
+// TODO:数据源存入Session中
+//@Aspect
+//@Component
+//@Order(10)
 public class GlobalDataSourceAspect {
 
     @Autowired
