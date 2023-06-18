@@ -5,14 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b52bb3b3-b796-4b45-8e5d-804429078202" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../DynamicDataSourceDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DynamicDataSourceDemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DynamicDataSourceDemo/src/main/java/org/dog/server/aspect/DataSourceAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DynamicDataSourceDemo/src/main/java/org/dog/server/aspect/DataSourceAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DynamicDataSourceDemo/src/main/java/org/dog/server/aspect/GlobalDataSourceAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DynamicDataSourceDemo/src/main/java/org/dog/server/aspect/GlobalDataSourceAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DynamicDataSourceDemo/src/main/java/org/dog/server/datasource/DynamicDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DynamicDataSourceDemo/src/main/java/org/dog/server/datasource/DynamicDataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DynamicDataSourceDemo/src/main/java/org/dog/server/datasource/LoadDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DynamicDataSourceDemo/src/main/java/org/dog/server/datasource/LoadDataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DynamicDataSourceDemo/src/main/java/org/dog/server/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DynamicDataSourceDemo/src/main/java/org/dog/server/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DynamicDataSourceDemo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../DynamicDataSourceDemo/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DynamicDataSourceDemo/src/test/java/org/dog/server/DynamicDataSourceDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DynamicDataSourceDemo/src/test/java/org/dog/server/DynamicDataSourceDemoApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RepeatSubmitDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RepeatSubmitDemo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/annotation/RepeatSubmit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/annotation/RepeatSubmit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/config/RedisConfig.java" afterDir="false" />
@@ -23,6 +15,8 @@
       <change beforePath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/redis/RedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/redis/RedisCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/request/RepeatableReadRequestWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/request/RepeatableReadRequestWrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/org/dog/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/org/dog/order/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/src/main/java/org/dog/storage/StorageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/storage/src/main/java/org/dog/storage/StorageApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +197,7 @@
       <workItem from="1686920315898" duration="4561000" />
       <workItem from="1686927353028" duration="26000" />
       <workItem from="1686927431163" duration="13834000" />
-      <workItem from="1687060088468" duration="3157000" />
+      <workItem from="1687060088468" duration="4170000" />
     </task>
     <servers />
   </component>
