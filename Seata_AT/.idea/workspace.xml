@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b52bb3b3-b796-4b45-8e5d-804429078202" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/org/dog/account/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/org/dog/account/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/org/dog/account/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/resources/registry.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/main/java/org/dog/business/controller/BusinessController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/main/java/org/dog/business/feign/OrderFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/main/java/org/dog/business/feign/StorageFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/main/java/org/dog/business/service/BusinessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/dog/common/RespBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/dog/common/exception/GlobalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/org/dog/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/org/dog/order/feign/AccountFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/org/dog/order/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/org/dog/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/resources/registry.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/src/main/java/org/dog/storage/controller/StorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/src/main/java/org/dog/storage/mapper/StorageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/src/main/java/org/dog/storage/service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/src/main/resources/registry.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RepeatSubmitDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RepeatSubmitDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/annotation/RepeatSubmit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/annotation/RepeatSubmit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/filter/RepeatableRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/filter/RepeatableRequestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/interceptor/RepeatSubmitInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/interceptor/RepeatSubmitInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/redis/RedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/redis/RedisCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/request/RepeatableReadRequestWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/java/org/dog/server/request/RepeatableReadRequestWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../RepeatSubmitDemo/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../../../../repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../apache-maven-3.6.3" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../../apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2RHP1bEyKMLRwLOU6i7L0pqn7TM" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showModules" value="false" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/odin/Documents/ruo-yi-study/my-study/ruo-yi-demo/Seata_AT/order/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "97650748a447a58f2a7af1bd1f7828dd",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/order/src/main/resources" />
+      <recent name="$PROJECT_DIR$/storage/src/main/resources" />
+      <recent name="$PROJECT_DIR$/order/src/main/java/org/dog/order/feign" />
+      <recent name="$PROJECT_DIR$/account/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AccountApplication">
+    <configuration name="AccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="account" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.dog.account.AccountApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dog.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="business" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.dog.business.BusinessApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dog.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.dog.eureka.EurekaApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dog.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.dog.order.OrderApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dog.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StorageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="storage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.dog.storage.StorageApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dog.storage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="lua.app" factoryName="Lua Application">
+      <option name="program" value="lua" />
+      <option name="file" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$/src/main/java" />
+      <option name="debuggerType" value="2" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AccountApplication" />
+        <item itemvalue="Spring Boot.StorageApplication" />
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.BusinessApplication" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b52bb3b3-b796-4b45-8e5d-804429078202" name="Changes" comment="" />
+      <created>1686903820911</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686903820911</updated>
+      <workItem from="1686903822057" duration="6911000" />
+      <workItem from="1686914577469" duration="4125000" />
+      <workItem from="1686920315898" duration="4561000" />
+      <workItem from="1686927353028" duration="26000" />
+      <workItem from="1686927431163" duration="13122000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
